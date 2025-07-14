@@ -1,14 +1,11 @@
-import java.util.*;
 public class MaxSum_SubArray{
     public static int SubArray(int arr[]){
         int n = arr.length;
-
         int maxSum = Integer.MIN_VALUE;
-
         for(int i = 0; i < n; i++){
             int currentSum = 0;
             for(int j = i; j < n; j++){
-                currentSum +=arr[j];
+                currentSum += arr[j];
                 if(currentSum > maxSum){
                     maxSum = currentSum;
                 }
@@ -21,3 +18,4 @@ public class MaxSum_SubArray{
         System.out.println((SubArray(arr)));
     }
 }
+
