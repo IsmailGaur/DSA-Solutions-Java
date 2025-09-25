@@ -1,0 +1,77 @@
+# Java Collection Framework Examples
+
+This repository contains all my Java code examples related to the **Java Collection Framework**, including Lists, Sets, Maps, Queues, and more. Each example is explained with comments and can be used for learning, practice, or reference.
+
+---
+
+## 📂 Folder Structure
+
+Java-Collection-Framework/
+│
+├─ List/
+│ ├─ ArrayListExample.java
+│ ├─ LinkedListExample.java
+│ └─ VectorExample.java
+│
+├─ Set/
+│ ├─ HashSetExample.java
+│ ├─ LinkedHashSetExample.java
+│ └─ TreeSetExample.java
+│
+├─ Map/
+│ ├─ HashMapExample.java
+│ ├─ LinkedHashMapExample.java
+│ └─ TreeMapExample.java
+│
+├─ Queue/
+│ ├─ PriorityQueueExample.java
+│ └─ DequeExample.java
+│
+└─ README.md
+
+markdown
+Copy code
+
+---
+
+## 📝 Examples
+
+### **1. List**
+- **ArrayListExample.java** – Demonstrates basic operations: add, remove, iterate, search, sort.  
+- **LinkedListExample.java** – Demonstrates linked list operations and traversal.  
+- **VectorExample.java** – Thread-safe List implementation example.
+
+### **2. Set**
+- **HashSetExample.java** – Shows uniqueness and basic operations.  
+- **LinkedHashSetExample.java** – Maintains insertion order.  
+- **TreeSetExample.java** – Sorted set example.
+
+### **3. Map**
+- **HashMapExample.java** – Key-value mapping, basic operations, iteration.  
+- **LinkedHashMapExample.java** – Maintains insertion order of mappings.  
+- **TreeMapExample.java** – Sorted mapping example.
+
+### **4. Queue**
+- **PriorityQueueExample.java** – Priority-based queue example.  
+- **DequeExample.java** – Double-ended queue operations.
+
+---
+
+## ⚡ How to Use
+1. Clone this repository:
+```bash
+git clone https://github.com/username/Java-Collection-Framework.git
+Navigate to the folder of your choice and compile the Java file:
+
+bash
+Copy code
+javac ArrayListExample.java
+Run the program:
+
+bash
+Copy code
+java ArrayListExample
+📚 Resources
+Official Java Documentation
+
+Java Tutorials - Collections
